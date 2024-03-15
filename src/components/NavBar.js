@@ -3,7 +3,8 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import { Button} from '@mui/material';
+import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const Menu = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.primary.light,
@@ -19,20 +20,15 @@ const Content = styled(Box)(({ theme }) => ({
 
 export default function NavBar() {
   return (
-    <Box sx={{ width: '100%', flexGrow: 1}}>
+    <Box sx={{ width: '100%', flexGrow: 1 }}>
       <Grid container direction="column">
         <Grid item>
           <Menu elevation={3}>
-            <Button>Home</Button>
-            <Button>About</Button>
-            <Button>Events</Button>
-            <Button>Resources</Button>
+            <Button component={Link} to="/">Home</Button>
+            <Button component={Link} to="/about">About</Button>
+            <Button component={Link} to="/events">Events</Button>
+            <Button component={Link} to="/resources">Resources</Button>
           </Menu>
-        </Grid>
-        <Grid item xs>
-          <Content>
-            Main Content
-          </Content>
         </Grid>
       </Grid>
     </Box>
