@@ -1,36 +1,21 @@
-import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
-import { Button } from '@mui/material';
-import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Menu = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.primary.light,
-  padding: theme.spacing(2),
-  textAlign: 'center',
-  color: theme.palette.primary.contrastText,
-  width: '100%', // Ensure the navigation bar spans the entire width
-}));
-
-const Content = styled(Box)(({ theme }) => ({
-  padding: theme.spacing(2),
-}));
-
-export default function NavBar() {
+function NavBar() {
   return (
-    <Box sx={{ width: '100%', flexGrow: 1 }}>
-      <Grid container direction="column">
-        <Grid item>
-          <Menu elevation={3}>
-            <Button component={Link} to="/">Home</Button>
-            <Button component={Link} to="/about">About</Button>
-            <Button component={Link} to="/events">Events</Button>
-            <Button component={Link} to="/resources">Resources</Button>
-          </Menu>
-        </Grid>
-      </Grid>
-    </Box>
+    <Navbar bg="light" data-bs-theme="light" >
+    <Container >
+      <Navbar.Brand href="/home">Care for Creation</Navbar.Brand>
+      <Nav className="me-auto">
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/about">About</Nav.Link>
+        <Nav.Link href="/events">Event</Nav.Link>
+        <Nav.Link href="/resources">Resources</Nav.Link>
+      </Nav>
+    </Container>
+  </Navbar>
   );
 }
+
+export default NavBar;
