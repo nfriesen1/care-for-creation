@@ -1,5 +1,5 @@
 import React from "react";
-import "./Resources.css";
+import "../styles/Resources.css";
 import Container from "react-bootstrap/Container";
 
 const Resources = () => {
@@ -8,7 +8,7 @@ const Resources = () => {
       <h1 id="resources-title" className="display-4">
         Resources
       </h1>
-      <Container style={{textAlign: 'left'}}>
+      <Container style={{ textAlign: "left" }}>
         <p>
           <h2 id="action-header">2 Minute Actions:</h2> Simple, everyday actions
           that anyone can incorporate into their routine to support
@@ -37,9 +37,84 @@ const Resources = () => {
           </li>
         </ul>
         <p>
-          <h2 id="action-header">10 Minute Actions:</h2> Actions that take a little more time like sending an email 
-          or calling someone, but are still relatively simple efforts to support environmental sustainability.
+          <h2 id="action-header">10 Minute Actions:</h2> Actions that take a
+          little more time like sending an email or calling someone, but are
+          still relatively simple efforts to support environmental
+          sustainability.
         </p>
+        <ul>
+          <li>
+            <a href="https://mn.gov/commerce/energy/consumer/energy-programs/home-energy-rebates.jsp">
+              MN Energy Programs Information
+            </a>
+          </li>
+          <li>
+            <a href="https://www.minnesotaenergyresources.com/savings/rebates">
+              MN Rebates Info
+            </a>
+          </li>
+          <li>
+            <p>
+              Learn about the rebates that are available to you - and look out
+              for our future rebate meeting at St. C’s!
+            </p>
+          </li>
+        </ul>
+        <p>
+          <h2 id="action-header">Couple Hour Actions:</h2> Actions that take a
+          fair amount of time like attending an event.
+        </p>
+        <ul>
+          <li>
+            <a href="https://go.interfaithpowerandlight.org/e/1045783/ster-WN-6gBWXK6qQcmyGCH1WZ4sYA/4vgv/26112004/h/bkACJpJFaPsW9fes5flYYZ850q1O4ACpHGAhu7q6UbE">
+              Register here for the Direct Pay 101: Federal Solar Funding for
+              Houses of Worship webinar today!
+            </a>
+          </li>
+        </ul>
+        <p>
+          <h2 id="action-header">Individual Actions:</h2> Personal lifestyle
+          changes and habits that contribute to environmental preservation.
+        </p>
+        <ul>
+          <li>
+            <p>
+              Turn off your car when parked, by not idling you keep our air
+              clean and save money
+            </p>
+          </li>
+          <li>
+            <p>
+              Save leftovers instead of throwing them away, wasting food
+              releases greenhouse gasses
+            </p>
+          </li>
+        </ul>
+        <p>
+          <h2 id="action-header">Local Community Actions:</h2> Opportunities to
+          get involved in local initiatives and projects aimed at environmental
+          conservation and sustainability within our community.
+        </p>
+        <ul>
+          <li>
+            <p>
+              Celebrate Earth Day! Join a local park clean-up, or go to
+              <a href="https://www.familyfuntwincities.com/twin-cities-earth-day-family-events/ ">
+                Twin Cities Earch Day events 
+              </a> for ideas the whole family can participate in!
+            </p>
+          </li>
+        </ul>
+        <p>
+          <h2 id="action-header">Political Actions:</h2> Ways to advocate for
+          environmental policies and engage with local legislators to address
+          climate change and protect the environment.
+        </p>
+        <ul>
+          <li>
+
+          </li>
+        </ul>
       </Container>
     </div>
   );
