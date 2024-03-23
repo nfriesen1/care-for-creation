@@ -18,7 +18,7 @@ function App() {
             </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">Features</Nav.Link>
+              <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/events">Events</Nav.Link>
               <Nav.Link href="/resources">Resources</Nav.Link>
             </Nav>

@@ -1,0 +1,43 @@
+#home-title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#section-header {
+    font-weight: bold;
+    text-align: left;
+}
+
+#first-section-text {
+    margin-top: 5%;
+    text-align: left;
+}
+
+#section-text {
+    margin-top: 10%;
+    text-align: left;
+}
+
+#section-image {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+#home-header {
+    font-weight: bold;
+    text-align: left;
+    padding: 3%;
+}
+
+.caption {
+    font-weight: lighter;
+    font-size: small;
+}
+
+
+#button {
+    font-weight: bold;
+    margin-top: 5%;
+}
+
