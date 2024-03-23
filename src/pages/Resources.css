@@ -1,0 +1,11 @@
+#resources-title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#categories-header, #action-header {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 3%;
+}
