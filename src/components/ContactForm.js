@@ -17,18 +17,18 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          setStateMessage("Message sent successfully!");
+          setStateMessage("Message sent successfully!  We will try get back to you as soon as we can.");
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
-          }, 5000); // hide message after 5 seconds
+          }, 10000); // hide message after 5 seconds
         },
         (error) => {
           setStateMessage("Something went wrong, please try again later");
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
-          }, 5000); // hide message after 5 seconds
+          }, 10000); // hide message after 5 seconds
         }
       );
 

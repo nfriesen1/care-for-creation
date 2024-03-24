@@ -16,32 +16,34 @@ const Home = () => {
           <Col id="first-section-text">
             <h2 id="section-header">Who We Are</h2>
             <p>
-              Starting in October 2023, we began with 90 people in small groups
-              focused on Pope Francis' Laudato Si'...
+              Embark on a journey with us that began in October 2023, when 90
+              passionate individuals gathered in small groups to explore Pope
+              Francis' Laudato Si'. Since then, we've grown into a vibrant
+              community committed to preserving and nurturing our planet.
             </p>
-            <Button
-              href="/about"
-              variant="outline-dark"
-              id="button"
-              size="lg"
-            >
-              
+            <Button href="/about" variant="outline-dark" id="button" size="lg">
               About Us
             </Button>
           </Col>
           <Col>
             <Image
-              src="home-image-1.jpg"
+              src="laudato-si.png"
               alt="Three people surrounding the earth and helping care for it"
+              style={{ marginTop: "10%" }}
               fluid
             />
-            <figcaption className="caption">Image by Freepik </figcaption>
+            <figcaption className="caption">
+              Image from{" "}
+              <a href="https://www.sdcatholicdisciples.net/earthday/">
+                https://www.sdcatholicdisciples.net/earthday/{" "}
+              </a>
+            </figcaption>
           </Col>
         </Row>
         <Row>
           <Col id="section-image">
             <Image
-              src="home-image-1.jpg"
+              src="events.jpg"
               alt="Three people surrounding the earth and helping care for it"
               fluid
             />
@@ -50,14 +52,13 @@ const Home = () => {
           <Col id="section-text">
             <h2 id="section-header">Impactful Events</h2>
             <p>
-              Join us our monthly events in supporting our parish's effors to uphold Creation...
+              Be part of something bigger than yourself by joining us in our
+              monthly events dedicated to supporting our parish's efforts in
+              upholding Creation. From learning how to talk about climate change
+              to initiating creation caring actions individually and as a community, together, 
+              we can make a tangible impact on our environment.
             </p>
-            <Button
-              href="/events"
-              variant="outline-dark"
-              id="button"
-              size="lg"
-            >
+            <Button href="/events" variant="outline-dark" id="button" size="lg">
               Sign up
             </Button>
           </Col>
@@ -66,8 +67,13 @@ const Home = () => {
           <Col id="section-text">
             <h2 id="section-header">Engaging Resources</h2>
             <p>
-              Looking to get started on your journey to Care for Creation or already a veteran?  Access our resource page to find things you can do
-              no matter what stage you are at.  And, if you find some interesting not already there, <a href="/contact">Contact Us</a>, and we can add it for you!
+              Ready to take action for a greener future? Whether you're just
+              starting your journey or already a seasoned environmentalist, our
+              resource page is your go-to destination. Discover practical tips,
+              inspiring stories, and actionable steps to care for Creation at
+              any stage. Found something noteworthy not on our list?{" "}
+              <a href="/contact">Contact us</a>, and we'll gladly add it for
+              you!
             </p>
             <Button
               href="/resources"

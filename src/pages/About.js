@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/About.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
+import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
@@ -65,13 +66,17 @@ const About = () => {
               We'd love to hear from you! If you have any questions,
               suggestions, or would like to learn more about our group, please
               don't hesitate to reach out. You can contact us at
-              stcs.careforcreation@gmail.com or connect with us on [social media
-              platforms].
+              stcs.careforcreation@gmail.com or send a message through our contact form:
             </p>
+            <Button  
+              href="/contact"
+              variant="outline-dark"
+              style={{fontWeight: "bold", margin: "1%"}}
+              size="lg">Contact Form</Button>
             <br/>
             <p>Thank you for joining us on this journey of faith, stewardship, and solidarity with creation.</p>
             <br/>
-            <p>Together, let's strive to make a positive impact on our world.</p>
+            <p>Together, let's strive to make a positive impact on our world!</p>
           </Col>
         </Row>
       </Container>

@@ -98,9 +98,8 @@ const Resources = () => {
         <ul>
           <li>
             <p>
-              Celebrate Earth Day! Join a local park clean-up, or go to
-              <a href="https://www.familyfuntwincities.com/twin-cities-earth-day-family-events/ ">
-                Twin Cities Earch Day events 
+              Celebrate Earth Day! Join a local park clean-up, or go to <a href="https://www.familyfuntwincities.com/twin-cities-earth-day-family-events/ ">
+              https://www.familyfuntwincities.com/twin-cities-earth-day-family-events/
               </a> for ideas the whole family can participate in!
             </p>
           </li>
