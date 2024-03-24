@@ -55,8 +55,8 @@ const Home = () => {
               Be part of something bigger than yourself by joining us in our
               monthly events dedicated to supporting our parish's efforts in
               upholding Creation. From learning how to talk about climate change
-              to initiating creation caring actions individually and as a community, together, 
-              we can make a tangible impact on our environment.
+              to initiating Creation caring actions individually and as a community, together, 
+              we can make a tangible impact on our Common Home.
             </p>
             <Button href="/events" variant="outline-dark" id="button" size="lg">
               Sign up
