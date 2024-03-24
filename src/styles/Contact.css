@@ -1,0 +1,13 @@
+#contact-title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#contact-container {
+    text-align: left;
+}
+
+#message-input{
+    height: 300px;
+}

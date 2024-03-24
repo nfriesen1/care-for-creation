@@ -21,6 +21,7 @@ function App() {
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/events">Events</Nav.Link>
               <Nav.Link href="/resources">Resources</Nav.Link>
+              <Nav.Link href="/contact">Contact Us</Nav.Link>
             </Nav>
           </Container>
         </Navbar>

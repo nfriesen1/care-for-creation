@@ -55,8 +55,8 @@ const Home = () => {
             <Button
               href="/events"
               variant="outline-dark"
+              id="button"
               size="lg"
-              style={{ fontWeight: "bold" }}
             >
               Sign up
             </Button>
@@ -67,7 +67,7 @@ const Home = () => {
             <h2 id="section-header">Engaging Resources</h2>
             <p>
               Looking to get started on your journey to Care for Creation or already a veteran?  Access our resource page to find things you can do
-              no matter what stage you are at.  And, if you find some interesting not already there, feel free to add it! 
+              no matter what stage you are at.  And, if you find some interesting not already there, <a href="/contact">Contact Us</a>, and we can add it for you!
             </p>
             <Button
               href="/resources"
