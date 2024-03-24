@@ -66,10 +66,6 @@ const Resources = () => {
         </p>
         <ul>
           <li>
-            <a href="https://go.interfaithpowerandlight.org/e/1045783/ster-WN-6gBWXK6qQcmyGCH1WZ4sYA/4vgv/26112004/h/bkACJpJFaPsW9fes5flYYZ850q1O4ACpHGAhu7q6UbE">
-              Register here for the Direct Pay 101: Federal Solar Funding for
-              Houses of Worship webinar today!
-            </a>
           </li>
         </ul>
         <p>
