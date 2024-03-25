@@ -142,16 +142,35 @@ const Resources = () => {
           spirtual that give the reader to insights into how to care for our
           Common Home
         </p>
-        <h4 id="sub-header">Scientific:</h4>
+        <h3 id="sub-header">Scientific:</h3>
         <ul>
           <li>
           ENTANGLED LIFE: How Fungi Make Our World, Change our Minds, and Shape our Futures by Merlin Sheldrake
           </li>
+          <li>
+          THE HIDDEN LIFE OF TREES, What They Feel, How They Communicate by Peter Wohlleben
+          </li>
         </ul>
-        <h4 id="sub-header">Spirtual:</h4>
+        <h3 id="sub-header">Spirtual:</h3>
         <ul>
           <li>
           SACRED EARTH, SACRED SOUL: Celtic Wisdom for Reawakening to What Our Souls Know and Healing the World By John Phillip Newell
+          </li>
+        </ul>
+        <h3 id="sub-header">
+          Spirtual/Scientific
+        </h3>
+        <ul>
+          <li>
+          BRAIDING SWEETGRASS, Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants by Robin Wall Kimmerer
+          </li>
+        </ul>
+        <h3 id="sub-header">
+          Biographies
+        </h3>
+        <ul>
+          <li>
+          ON A FARTHER SHORE, The Life and Legacy of Rachel Carson by William Souder
           </li>
         </ul>
       </Container>
