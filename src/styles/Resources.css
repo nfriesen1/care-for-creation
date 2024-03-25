@@ -4,8 +4,9 @@
     margin-top: 3%;
 }
 
-#categories-header, #action-header {
+#categories-header, #action-header, #sub-header {
     font-weight: bold;
     text-align: left;
     margin-top: 4%;
 }
+
