@@ -13,7 +13,7 @@ const Home = () => {
       <br id="spacer" />
       <Container fluid="lg">
         <Row>
-          <Col id="first-section-text">
+          <Col lg={6} id="first-section-text">
             <h2 id="section-header">Who We Are</h2>
             <p>
               Embark on a journey with us that began in October 2023, when 90
@@ -43,13 +43,14 @@ const Home = () => {
         <Row>
           <Col id="section-image">
             <Image
+              className="d-sm-none d-md-block"
               src="events.jpg"
               alt="Three people surrounding the earth and helping care for it"
               fluid
             />
-            <figcaption className="caption">Image by Freepik </figcaption>
+            <figcaption className="d-sm-none d-md-block caption">Image by Freepik </figcaption>
           </Col>
-          <Col id="section-text">
+          <Col lg={6} id="section-text">
             <h2 id="section-header">Impactful Events</h2>
             <p>
               Be part of something bigger than yourself by joining us in our
@@ -61,10 +62,18 @@ const Home = () => {
             <Button href="/events" variant="outline-dark" id="button" size="lg">
               Sign up
             </Button>
+            <Image
+              className="d-sm-block d-md-none"
+              style={{marginTop: "5%"}}
+              src="events.jpg"
+              alt="Three people surrounding the earth and helping care for it"
+              fluid
+            />
+            <figcaption className="d-none d-sm-block d-md-none">Image by Freepik </figcaption>
           </Col>
         </Row>
         <Row>
-          <Col id="section-text">
+          <Col lg={6} id="section-text">
             <h2 id="section-header">Engaging Resources</h2>
             <p>
               Ready to take action for a greener future? Whether you're just
