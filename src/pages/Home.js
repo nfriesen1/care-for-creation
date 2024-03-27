@@ -43,12 +43,12 @@ const Home = () => {
         <Row>
           <Col id="section-image">
             <Image
-              className="d-sm-none d-md-block"
+              className="d-none d-lg-block"
               src="events.jpg"
               alt="Three people surrounding the earth and helping care for it"
               fluid
             />
-            <figcaption className="d-sm-none d-md-block caption">Image by Freepik </figcaption>
+            <figcaption className="d-none d-lg-block caption">Image by Freepik </figcaption>
           </Col>
           <Col lg={6} id="section-text">
             <h2 id="section-header">Impactful Events</h2>
@@ -63,13 +63,13 @@ const Home = () => {
               Sign up
             </Button>
             <Image
-              className="d-sm-block d-md-none"
+              className="d-block d-lg-none"
               style={{marginTop: "5%"}}
               src="events.jpg"
               alt="Three people surrounding the earth and helping care for it"
               fluid
             />
-            <figcaption className="d-none d-sm-block d-md-none">Image by Freepik </figcaption>
+            <figcaption className="d-block d-lg-none caption">Image by Freepik </figcaption>
           </Col>
         </Row>
         <Row>
