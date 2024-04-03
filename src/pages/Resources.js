@@ -138,6 +138,25 @@ const Resources = () => {
           <li></li>
         </ul>
         <p>
+          <h2 id="action-header">Resources for Kids:</h2> Ways to teach children
+          in your life about the wonders of Our Common Home and how to protect
+          it.
+        </p>
+        <ul>
+          <li>
+            {" "}
+            Go to{" "}
+            <a
+              href="https://pbskids.org/wildkratts/videos/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://pbskids.org/wildkratts/videos/
+            </a>{" "}
+            and look for "Our Blue and Green World"
+          </li>
+        </ul>
+        <p>
           <h2 id="action-header">Book List:</h2> Books both scientific and
           spirtual that give the reader to insights into how to care for our
           Common Home
@@ -145,32 +164,37 @@ const Resources = () => {
         <h3 id="sub-header">Scientific:</h3>
         <ul>
           <li>
-          ENTANGLED LIFE: How Fungi Make Our World, Change our Minds, and Shape our Futures by Merlin Sheldrake
+            ENTANGLED LIFE: How Fungi Make Our World, Change our Minds, and
+            Shape our Futures by Merlin Sheldrake
           </li>
           <li>
-          THE HIDDEN LIFE OF TREES, What They Feel, How They Communicate by Peter Wohlleben
+            THE HIDDEN LIFE OF TREES, What They Feel, How They Communicate by
+            Peter Wohlleben
           </li>
         </ul>
         <h3 id="sub-header">Spirtual:</h3>
         <ul>
           <li>
-          SACRED EARTH, SACRED SOUL: Celtic Wisdom for Reawakening to What Our Souls Know and Healing the World By John Phillip Newell
+            SACRED EARTH, SACRED SOUL: Celtic Wisdom for Reawakening to What Our
+            Souls Know and Healing the World By John Phillip Newell
+          </li>
+          <li>
+            THOMAS MERTON, WHEN THE TREES SAY NOTHING, WRITINGS ON NATURE,
+            edited by Kathleen Deignan, illustrated by John Giuliani
           </li>
         </ul>
-        <h3 id="sub-header">
-          Spirtual/Scientific
-        </h3>
+        <h3 id="sub-header">Spirtual/Scientific</h3>
         <ul>
           <li>
-          BRAIDING SWEETGRASS, Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants by Robin Wall Kimmerer
+            BRAIDING SWEETGRASS, Indigenous Wisdom, Scientific Knowledge, and
+            the Teachings of Plants by Robin Wall Kimmerer
           </li>
         </ul>
-        <h3 id="sub-header">
-          Biographies
-        </h3>
+        <h3 id="sub-header">Biographies</h3>
         <ul>
           <li>
-          ON A FARTHER SHORE, The Life and Legacy of Rachel Carson by William Souder
+            ON A FARTHER SHORE, The Life and Legacy of Rachel Carson by William
+            Souder
           </li>
         </ul>
       </Container>
