@@ -157,6 +157,16 @@ const Resources = () => {
           </li>
         </ul>
         <p>
+          <h2 id="action-header">Websites:</h2> Informative websites that give
+          valuable insights into how we care for Creation.
+        </p>
+          <ul>
+            <li><a href="https://catholicclimatecovenant.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Catholic Climate Covenant</a></li>
+          </ul>
+        <p>
           <h2 id="action-header">Book List:</h2> Books both scientific and
           spirtual that give the reader to insights into how to care for our
           Common Home
