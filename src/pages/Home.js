@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <h1 className="display-4" id="home-title">
-        Welcome to St. Cecilias Care for Creation Team Website! 💕🌎
+        Welcome to St. Cecilia's Care for Creation Team Website! 💕🌎
       </h1>
       <br id="spacer" />
       <Container fluid="lg">
