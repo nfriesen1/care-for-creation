@@ -83,6 +83,16 @@ const Resources = () => {
               for our future rebate meeting at St. C’s!
             </p>
           </li>
+          <li>
+            <a
+              href="https://secure.everyaction.com/JKmLyDOyYk23Ax4AatvgFA2?contactdata=yedRYXzdnAfCMn6iEreASTg2UFLVLsg2bRsOHv6xrjXqIVnDEXaAFpSBjBIxxCLDhnJykWxfq8h2Nu1KJx%2fYCZ+ODEo%2fcoa5FBbMlRsrLTTqn4AWxzlY+xFk4mdZlir8dmZWzPCj3esNWkBDy54fXL8hpRVh6hqc5wIqJwpsT%2fO%2fIqdbDxf54huG125S%2fgYFHl2EtXoeKR7RCzBRyWp2nyDS+K3vo0iGuUByh%2fsqZpNVGsaYjOZEYEVCQCNacfJ00zGdIRR7gUjjBIlkUyuOww%3d%3d&emci=06ac2481-a8f6-ee11-aaf0-7c1e52017038&emdi=4e3567bd-c8f6-ee11-aaf0-7c1e52017038&ceid=2754895"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Write MN Leadership & Help Get Network Geothermal Pilots Across
+              the Finish Line!
+            </a>
+          </li>
         </ul>
         <p>
           <h2 id="action-header">Couple Hour Actions:</h2> Actions that take a
@@ -128,6 +138,35 @@ const Resources = () => {
               for ideas the whole family can participate in!
             </p>
           </li>
+          <li>
+            <p>
+              Washington County has just joined Ramsey County in initiating a
+              food scraps pick up program.{" "}
+              <a
+                href="https://foodscrapspickup.com/ "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join Food Scraps Program
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              Looking for a new bike? in St. Paul is a
+              "full-service bike shop specializing in refurbished bicycles and a
+              nonprofit youth employment program - all rolled into one!" Learn
+              more at {"  "}
+              <a
+                href="https://www.exbike.com/ "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.exbike.com/
+              </a>
+              .
+            </p>
+          </li>
         </ul>
         <p>
           <h2 id="action-header">Political Actions:</h2> Ways to advocate for
@@ -160,12 +199,17 @@ const Resources = () => {
           <h2 id="action-header">Websites:</h2> Informative websites that give
           valuable insights into how we care for Creation.
         </p>
-          <ul>
-            <li><a href="https://catholicclimatecovenant.org/"
+        <ul>
+          <li>
+            <a
+              href="https://catholicclimatecovenant.org/"
               target="_blank"
               rel="noopener noreferrer"
-            >Catholic Climate Covenant</a></li>
-          </ul>
+            >
+              Catholic Climate Covenant
+            </a>
+          </li>
+        </ul>
         <p>
           <h2 id="action-header">Book List:</h2> Books both scientific and
           spirtual that give the reader to insights into how to care for our
