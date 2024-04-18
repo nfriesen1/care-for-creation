@@ -26,6 +26,16 @@ const Resources = () => {
           </li>
           <li>
             <a
+              href="https://fossilfueltreaty.org/#endorce"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Fossil Fuel Non-Proliferation Treaty (International Proposal) 
+            </a> {"  "}
+            Research and then Sign up to support the treaty. Ask friends, family and neighbors to do so as well.
+          </li>
+          <li>
+            <a
               href="https://citizensclimatelobby.org/get-loud-take-action/prove-it-act/"
               target="_blank"
               rel="noopener noreferrer"
@@ -99,7 +109,15 @@ const Resources = () => {
           fair amount of time like attending an event.
         </p>
         <ul>
-          <li></li>
+          <li>Watch <a href= "https://www.youtube.com/watch?v=l3EBHebH17Y"
+              target="_blank"
+              rel="noopener noreferrer">
+            The Letter Movie
+            </a>
+            {" "} and keep your eyes out on our <a href= "/events"
+              target="_blank"
+              rel="noopener noreferrer" >Event Calendar</a> {" "} for our Parish Movie Event in the Fall.
+            </li>
         </ul>
         <p>
           <h2 id="action-header">Individual Actions:</h2> Personal lifestyle
@@ -107,18 +125,124 @@ const Resources = () => {
         </p>
         <ul>
           <li>
-            <p>
-              Turn off your car when parked, by not idling you keep our air
-              clean and save money
-            </p>
+            <h3 id="sub-header">Car:</h3>
+            <ul>
+              <li>
+                <p>
+                  Turn off your car when parked, by not idling you keep our air
+                  clean and save money
+                </p>
+              </li>
+            </ul>
           </li>
           <li>
-            <p>
-              Save leftovers instead of throwing them away, wasting food
-              releases greenhouse gasses
-            </p>
+            <h3 id="sub-header">Food:</h3>
+            <ul>
+              <li>
+                <p>
+                  Save leftovers instead of throwing them away, wasting food
+                  releases greenhouse gasses
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 id="sub-header">Cleaning:</h3>
+            <ul>
+              <li>
+                <p>
+                  Use cloth rags for clean-up instead of paper towels, reducing
+                  waste and promoting sustainability.
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 id="sub-header">Home:</h3>
+            <ul>
+              <li>
+                <p>
+                  Upgrade old windows with tighter seals or storm windows to
+                  improve insulation and energy efficiency, reducing heating and
+                  cooling costs.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Install a clothesline and air-dry your clothes instead of
+                  using a dryer, saving up to 2,400 pounds of carbon emissions
+                  annually.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Consider purchasing energy-efficient appliances, such as
+                  washing machines that use less water or heat pumps for heating
+                  and cooling, to minimize energy consumption and environmental
+                  impact.
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 id="sub-header">Energy:</h3>
+            <ul>
+              <li>
+                <p>
+                  Support solar power initiatives by installing solar panels on
+                  your home or participating in community solar programs,
+                  contributing to renewable energy production and reducing
+                  reliance on non-renewable resources.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Use ceiling fans to help distribute air more effectively,
+                  reducing the need for heating or cooling and saving energy.
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 id="sub-header">Heating:</h3>
+            <ul>
+              <li>
+                <p>
+                  Consider purchasing a heat pump or instant electric water
+                  heater to replace old air conditioners/heaters or tank water
+                  heaters, reducing reliance on fossil fuels and promoting
+                  energy efficiency.
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 id="sub-header">Personal Care:</h3>
+            <ul>
+              <li>
+                <p>
+                  Opt for solid bars of dish soap and shampoo instead of liquid
+                  versions packaged in plastic bottles, reducing plastic waste
+                  and promoting sustainability.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Install a bidet in your bathroom to reduce reliance on toilet
+                  paper and conserve water with each use.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Adopt European-style showering habits by showering less
+                  frequently and using soap and washcloths between showers to
+                  save water.
+                </p>
+              </li>
+            </ul>
           </li>
         </ul>
+
         <p>
           <h2 id="action-header">Local Community Actions:</h2> Opportunities to
           get involved in local initiatives and projects aimed at environmental
@@ -153,10 +277,9 @@ const Resources = () => {
           </li>
           <li>
             <p>
-              Looking for a new bike? in St. Paul is a
-              "full-service bike shop specializing in refurbished bicycles and a
-              nonprofit youth employment program - all rolled into one!" Learn
-              more at {"  "}
+              Looking for a new bike? In St. Paul there is a "full-service bike shop
+              specializing in refurbished bicycles and a nonprofit youth
+              employment program - all rolled into one!" Learn more at {"  "}
               <a
                 href="https://www.exbike.com/ "
                 target="_blank"
@@ -209,11 +332,40 @@ const Resources = () => {
               Catholic Climate Covenant
             </a>
           </li>
+          <li>
+            <a
+              href= "https://www.ridwell.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ridwell.com
+            </a>
+            : Fills the gaps of traditional recycling to help you waste less!
+          </li>
+          <li>
+            Looking to install solar panels?  We recommend {" "}
+            <a
+              href= "https://cedarcreekenergy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cedar Creek Energy.
+            </a> 
+          </li>
+          <li>
+            <a
+              href= "https://mn.gov/commerce/energy/solar-wind/community-solar/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              More info on solar panels for MN.
+            </a> 
+          </li>
         </ul>
         <p>
           <h2 id="action-header">Book List:</h2> Books both scientific and
           spirtual that give the reader to insights into how to care for our
-          Common Home
+          Common Home.
         </p>
         <h3 id="sub-header">Scientific:</h3>
         <ul>
