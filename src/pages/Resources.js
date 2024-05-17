@@ -10,6 +10,20 @@ const Resources = () => {
       </h1>
       <Container style={{ textAlign: "left" }}>
         <p>
+          <h2 id="action-header">Time Sensitive Actions:</h2> Actions that within a certain time window to be completed.
+        </p>
+        <ul>
+          <li>
+            <a
+              href="http://pin.salsalabs.com/dia/track.jsp?v=2&c=cpnupxhlIf%2BIh4oqSH17AcL0TN1wgyQN"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Urge Gov. Walz to apply for monarch habitat funding by the June 18 deadline
+            </a>
+          </li>
+        </ul>
+        <p>
           <h2 id="action-header">2 Minute Actions:</h2> Simple, everyday actions
           that anyone can incorporate into their routine to support
           environmental sustainability.
