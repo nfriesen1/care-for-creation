@@ -75,6 +75,15 @@ const Resources = () => {
               Climate Smart Forestry
             </a>
           </li>
+          <li>
+            <a
+              href="http://pin.salsalabs.com/dia/track.jsp?v=2&c=Agr1eTq0jrhi%2FbQ%2B3Xt5D9gA8OVH7WIz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tell your state legislators: Ban the pesticide-coated seeds that are killing bees.
+            </a>
+          </li>
         </ul>
         <p>
           <h2 id="action-header">10 Minute Actions:</h2> Actions that take a
