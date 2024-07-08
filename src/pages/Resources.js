@@ -340,6 +340,16 @@ const Resources = () => {
             </a>{" "}
             and look for "Our Blue and Green World"
           </li>
+          <li>
+            <a href="https://anneneuberger.com/wp-content/uploads/Gods-Creation-Waits_Revised_June_2024.pdf "
+              target="_blank"
+              rel="noopener noreferrer"> GOD'S CREATION WAITS
+            </a>, a downloadable workbook for kids in grades 2-5 and their adults. This booklet will encourage children to 
+            develop an awareness for all of nature and to appreciate it as a gift from God. The activities, stories, and prayers will help them to take joy often, even daily, in creation. 
+            From that awareness, this resource then strives to encourage a child’s curiosity about the natural world, and subsequently, a concern for it. 
+            These aspirations are all interwoven with an attitude of joy and thankfulness for a loving God. Written by parishioner Anne Neuberger. 
+            A black-and-white version will be available in August. 
+          </li>
         </ul>
         <p>
           <h2 id="action-header">Websites:</h2> Informative websites that give
@@ -400,6 +410,9 @@ const Resources = () => {
             THE HIDDEN LIFE OF TREES, What They Feel, How They Communicate by
             Peter Wohlleben
           </li>
+          <li>
+            NATURE'S BEST HOPE, A New Approach to Nature that Starts in Your Yard, by Douglas W. Tallamy 
+          </li>
         </ul>
         <h3 id="sub-header">Spirtual:</h3>
         <ul>
@@ -424,6 +437,9 @@ const Resources = () => {
           <li>
             ON A FARTHER SHORE, The Life and Legacy of Rachel Carson by William
             Souder
+          </li>
+          <li>
+            Rachel Caron: Witness for Nature by Linda Lear
           </li>
         </ul>
       </Container>
