@@ -14,13 +14,6 @@ const Resources = () => {
         </p>
         <ul>
           <li>
-            <a
-              href="http://pin.salsalabs.com/dia/track.jsp?v=2&c=cpnupxhlIf%2BIh4oqSH17AcL0TN1wgyQN"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Urge Gov. Walz to apply for monarch habitat funding by the June 18 deadline
-            </a>
           </li>
         </ul>
         <p>
@@ -356,6 +349,16 @@ const Resources = () => {
           valuable insights into how we care for Creation.
         </p>
         <ul>
+        <li>
+            <a
+              href="https://unidos-mn.org/saint-paul"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Undios | Saint Paul 
+            </a>: {" "}
+            This a group we are working with in our goal to Care for Creation at a systematic level.
+          </li>
           <li>
             <a
               href="https://catholicclimatecovenant.org/"
