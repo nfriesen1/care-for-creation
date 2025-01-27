@@ -345,10 +345,20 @@ const Resources = () => {
           </li>
         </ul>
         <p>
-          <h2 id="action-header">Websites:</h2> Informative websites that give
+          <h2 id="action-header">Websites:</h2> Informative websites/articles that give
           valuable insights into how we care for Creation.
         </p>
         <ul>
+        <li>
+            <a
+              href="https://search.app/j7tQqpRgevsb8XP78 "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Minnesota’s extreme weather year again fueled by record ocean temperatures
+            </a>: {" "}
+            Article in the Star Tribune on the impact of climate change on Minnesota weather in 2024.
+          </li>
         <li>
             <a
               href="https://unidos-mn.org/saint-paul"
@@ -358,6 +368,15 @@ const Resources = () => {
               Undios | Saint Paul 
             </a>: {" "}
             This a group we are working with in our goal to Care for Creation at a systematic level.
+          </li>
+          <li>
+            <a
+              href="https://laudatosimovement.org/news/2025-a-year-of-adventure/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Laudato Si' 2025 Key Moments
+            </a>
           </li>
           <li>
             <a
