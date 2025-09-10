@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.js";
-import NotFound from "./pages/NotFound.js";
-import About from "./pages/About.js";
-import Events from "./pages/Events.js";
-import Resources from "./pages/Resources.js";
-import Contact from "./pages/Contact.js";
+import Home from "./pages/Home.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import About from "./pages/About.jsx";
+import Events from "./pages/Events.jsx";
+import Resources from "./pages/Resources.jsx";
+import Contact from "./pages/Contact.jsx";
 
 export default function AppRouter() {
   return (

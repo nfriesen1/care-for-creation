@@ -33,9 +33,9 @@ const Home = () => {
               fluid
             />
             <figcaption className="caption">
-              Image from{" "}
+              Image from {" "}
               <a href="https://www.sdcatholicdisciples.net/earthday/">
-                https://www.sdcatholicdisciples.net/earthday/{" "}
+                https://www.sdcatholicdisciples.net/earthday/ {" "}
               </a>
             </figcaption>
           </Col>
@@ -80,7 +80,7 @@ const Home = () => {
               starting your journey or already a seasoned environmentalist, our
               resource page is your go-to destination. Discover practical tips,
               inspiring stories, and actionable steps to care for Creation at
-              any stage. Found something noteworthy not on our list?{" "}
+              any stage. Found something noteworthy not on our list? {" "}
               <a href="/contact">Contact us</a>, and we'll gladly add it for
               you!
             </p>
