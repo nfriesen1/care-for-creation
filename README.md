@@ -1,43 +1,48 @@
-# St. Cecilia's Care for Creation Website
+# St. Cecilia's Care for Creation
 
-My church's Care for Creation group's website hosted on Netlify:  [Website Link](https://stcs-careforcreation.netlify.app)
+The website for my parish's Care for Creation team, a group of parishioners that formed in 2023 around Pope Francis' encyclical *Laudato Si'*. The site gives the team a home online: who they are, upcoming events, practical resources for caring for the environment, and a way to get in touch.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live site:** https://stcs-careforcreation.netlify.app
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home and About:** the team's story, its mission and its strategic framework.
+- **Events:** an embedded Google Calendar of upcoming events, with a link to sign up through SignUpGenius.
+- **Resources:** curated links for advocacy, home energy rebates in Minnesota, composting, and material for kids and families.
+- **Contact:** a contact form that sends straight to the team's inbox through [EmailJS](https://www.emailjs.com/), so no backend server is needed. It checks that all fields are filled in and shows a success or error message after sending.
+- **Responsive layout** built with React Bootstrap, plus a custom 404 page.
 
-### `npm start`
+## Tech stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| | |
+|---|---|
+| Framework | React 18 |
+| Build tool | Vite |
+| Routing | React Router 6 |
+| UI | React Bootstrap and Material UI |
+| Email | EmailJS |
+| Hosting | Netlify (`public/_redirects` sends every route to `index.html` so client-side routing works) |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running it locally
 
-### `npm test`
+Requires Node.js 18 or later.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+npm start          # dev server at http://localhost:5173
+npm run build      # production build in dist/
+npm run serve      # preview the production build
+```
 
-### `npm run build`
+The contact form needs an EmailJS service ID, template ID and public key. See `src/components/ContactForm.jsx` for where they're read.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
+```
+src/
+  pages/        Home, About, Events, Resources, Contact, NotFound
+  components/   ContactForm
+  styles/       one stylesheet per page
+  Routes.jsx    route table
+public/         static assets, Netlify redirects
+```
