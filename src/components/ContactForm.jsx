@@ -23,10 +23,10 @@ const ContactForm = () => {
     setIsSubmitting(true);
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        import.meta.env.REACT_APP_SERVICE_ID,
+        import.meta.env.REACT_APP_TEMPLATE_ID,
         e.target,
-        process.env.REACT_APP_PUBLIC_KEY
+        import.meta.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
